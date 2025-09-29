@@ -13,4 +13,4 @@ console.log(result);
 // 2. 중첩된 삼항 연산자
 var score = 85
 var grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : "D";
-console.log(grade);
+console.log(`당신의 학점은 ${grade}입니다.`);
