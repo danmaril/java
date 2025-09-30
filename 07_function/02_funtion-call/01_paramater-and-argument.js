@@ -2,7 +2,7 @@
  * 매개변수(parameter)와 인수(argument)
  */
 
-// 함수 선선문
+// 함수 선언문
 function hello(name) {  // 매개변수
 
     // 매개변수는 함수 몸체 내부에서만 참조할 수 있다.

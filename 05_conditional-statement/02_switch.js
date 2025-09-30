@@ -5,7 +5,7 @@
 
 
 // 하나가 아닌 여러개의 그룹중에 하나를 선택할경우는?
-var fruit = 'applemango'
+let fruit = 'mango'
 
 switch(fruit) {
     case 'apple' :
@@ -14,7 +14,7 @@ switch(fruit) {
     case 'banana' :
         console.log('선택한 과일은 바나나 입니다');
         break;
-    case 'mango', 'applemango' :                // A , B :  
+    case 'mango', 'apple mango' :                // A , B :  
         console.log('선택한 과일은 망고입니다');
         break;
     default:
